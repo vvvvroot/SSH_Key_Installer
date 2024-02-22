@@ -23,6 +23,11 @@ bash <(curl -fsSL git.io/key.sh) [options...] <arg>
 * `-p` - Change SSH port, the arguments is port number
 * `-d` - Disable password login
 
+example
+
+```
+bash <(curl -fsSL git.io/key.sh) -og vvvvroot -d
+```
 ## Lisence
 
 [MIT](https://github.com/P3TERX/SSH_Key_Installer/blob/master/LICENSE) © P3TERX
